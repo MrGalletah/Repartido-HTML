@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    max-width: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+section , article {
+    max-width: 600px;
+}
+
+.formItem {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+textarea {
+    min-width: 200px;
+}
+
+button {
+padding: 1.2rem;
+
+}
