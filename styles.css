@@ -42,6 +42,10 @@ section , article {
     max-width: 600px;
 }
 
+form {
+    margin-bottom: 3rem;
+}
+
 .formItem {
     margin-bottom: 2rem;
     display: flex;
