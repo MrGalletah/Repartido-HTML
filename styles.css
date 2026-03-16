@@ -28,6 +28,10 @@ nav {
     margin-bottom: 1rem;
 }
 
+a {
+    color: white;
+}
+
 ul {
     display: flex;
     flex-direction: row;
